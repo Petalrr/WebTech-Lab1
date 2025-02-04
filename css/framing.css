@@ -1,0 +1,28 @@
+.box {
+    width: 500px;
+    height: 500px;
+    border: 5px solid;
+}
+
+.center{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.indent{
+    margin: 25px;
+}
+
+.indent-deep{
+    margin: 50px;
+}
+
+.nav-bar{
+    position: fixed;
+    z-index: 50;
+    right: 0;
+    padding: 15px;
+}
